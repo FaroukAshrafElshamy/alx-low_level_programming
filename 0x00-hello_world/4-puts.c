@@ -6,7 +6,7 @@
 * Return: Always 0 (Success)
 */
 
-void main(void)
+int main(void)
 {
 /* printf func */
 char Mystr[] = "\"Programming is like building a multilingual puzzle";
