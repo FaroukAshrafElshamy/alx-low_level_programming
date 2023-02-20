@@ -7,11 +7,7 @@
 
 int main(void)
 {
-char thechar;
-int theint;
-long int thelong;
-long long int thell;
-float thefloat;
+char thechar;int theint;long int thelong;long long int thell;float thefloat;
 printf("Size of a char: %zu byte(s)\n", sizeof(thechar));
 printf("Size of an int: %zu byte(s)\n", sizeof(theint));
 printf("Size of a long int: %zu byte(s)\n", sizeof(thelong));
