@@ -12,11 +12,11 @@ int theint;
 long int thelong;
 long long int thell;
 float thefloat;
-printf("Size of a char: %zu byte(s)",sizeof(thechar));
-printf("Size of a char: %zu byte(s)",sizeof(theint));
-printf("Size of a char: %zu byte(s)",sizeof(thelong));
-printf("Size of a char: %zu byte(s)",sizeof(thell));
-printf("Size of a char: %zu byte(s)",sizeof(thefloat));
+printf("Size of a char: %zu byte(s)\n", sizeof(thechar));
+printf("Size of a char: %zu byte(s)\n", sizeof(theint));
+printf("Size of a char: %zu byte(s)\n", sizeof(thelong));
+printf("Size of a char: %zu byte(s)\n", sizeof(thell));
+printf("Size of a char: %zu byte(s)\n", sizeof(thefloat));
 return (0);
 }
 
