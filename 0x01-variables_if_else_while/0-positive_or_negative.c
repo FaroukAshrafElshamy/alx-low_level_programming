@@ -4,6 +4,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Print _putchar
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
@@ -13,15 +17,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-	printf("is positive");
+	printf("%d is positive",n);
 	}
 	else if (n == 0)
 	{
-	printf("is zero");
+	printf("%d is zero",n);
 	}
 	else
 	{
-	printf("is negative");
+	printf("%d is negative",n);
 	}
 	return (0);
 }
