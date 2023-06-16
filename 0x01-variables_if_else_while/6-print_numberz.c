@@ -8,7 +8,13 @@
  */
 int main(void)
 {
-	putchar(0);
-	putchar(12345679);
+	int digit = 0;
+
+	while (digit <= 9)
+	{
+		putchar(digit + '0');
+		++digit;
+	}
+	putchar('\n');
 	return (0);
 }
