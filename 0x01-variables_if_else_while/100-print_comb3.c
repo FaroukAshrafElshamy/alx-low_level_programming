@@ -22,7 +22,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		++digit;
+		++d;
 	}
 	putchar('\n');
 
