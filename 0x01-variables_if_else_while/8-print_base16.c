@@ -1,26 +1,25 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- *main - Entry point
+ * main - Entry point
  *
- *decription: print a string
+ * Description: print numbers of base16 in lowercase
  *
  * Return: Always 0 (Success)
- */
+*/
+
 int main(void)
 {
-	int n;
-	char ch1;
+	int num;
+	char letter;
 
-	for (n = 0; n <= 9; n++)
-	{
-		putchar(n+'0');
-	}
+	for (num = 0; num < 10; num++)
+		putchar(num + '0');
 
-	for (ch1 = 'a'; ch1 <= 'f'; ch1++)
-	{
-		putchar(ch1);
-	}
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
 	putchar('\n');
+
 	return (0);
 }
