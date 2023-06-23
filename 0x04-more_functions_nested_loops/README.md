@@ -1,5 +1,5 @@
 # More functions, more nested loops
 
 ## Tasks
-* **0.isupper**
+* **Is Upper?**
     * [0-isupper.c](./0-isupper.c)
