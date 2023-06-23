@@ -2,4 +2,4 @@
 
 ## Tasks
 * **0.isupper**
-    * [0-isupper.c](./00isupper.c)
+    * [0-isupper.c](./0-isupper.c)
