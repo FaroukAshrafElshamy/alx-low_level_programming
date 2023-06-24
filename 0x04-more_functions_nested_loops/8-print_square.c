@@ -11,7 +11,7 @@
 void print_square(int sz)
 {
 	if (sz <= 0)
-		_putchar('\n');
+		putchar('\n');
 	else
 	{
 		int x, y;
@@ -19,8 +19,8 @@ void print_square(int sz)
 		for (x = 0; x < sz; x++)
 		{
 			for (y = 0; y < sz; y++)
-				_putchar('#');
-			_putchar('\n');
+				putchar('#');
+			putchar('\n');
 		}
 	}
 }

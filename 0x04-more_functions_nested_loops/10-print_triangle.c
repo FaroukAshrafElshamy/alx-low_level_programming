@@ -10,22 +10,22 @@
 
 void print_triangle(int size)
 {
-	int hght, base;
+	int h, b;
 
 	if (size <= 0)
-		_putchar('\n');
+		putchar('\n');
 	else
 	{
-		for (hght = 1; hght <= size; ++hght)
+		for (h = 1; h <= size; ++h)
 		{
-			for (base = 1; base <= size; ++base)
+			for (b = 1; b <= size; ++b)
 			{
-				if ((hght + base) <= size)
-					_putchar(' ');
+				if ((h + b <= size)
+					putchar(' ');
 				else
-					_putchar('#');
+					putchar('#');
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 }
