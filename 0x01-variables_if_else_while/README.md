@@ -2,9 +2,9 @@
 
 ## Tasks :page_with_curl:
 
-* **Q0** [0-positve_or_negative.c](./0-positve_or_negative.c)
+* **Q0** [0-positive_or_negative.c](./0-positive_or_negative.c)
 
-* **Q1** [1-last_digit]()
+* **Q1** [1-last_digit.c](./1-last_digit.c)
 
 * **Q2** [2-print_alphabet.c](./2-print_alphabet.c)
 
