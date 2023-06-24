@@ -2,20 +2,20 @@
 
 ## Tasks :page_with_curl:
 
-* **Q0** [0-preprocessor:](./0-preprocessor) 
+* **Q0**  [0-preprocessor:](./0-preprocessor) 
 
-* **[1-compiler:](./1-compiler)** 
+* **Q1**  [1-compiler:](./1-compiler) 
 
-* **[2-assembler:](./2-assembler)** 
+* **Q2**  [2-assembler:](./2-assembler) 
 
-* **[3-name:](./3-name)** 
+* **Q3**  [3-name:](./3-name)
 
-* **[4-puts.c:](./4-puts.c)** 
+* **Q4**  [4-puts.c:](./4-puts.c) 
 
-* **[5-printf.c:](./5-printf.c)** 
+* **Q5**  [5-printf.c:](./5-printf.c) 
 
-* **[6-size.c:](./6-size.c)** 
+* **Q6**  [6-size.c:](./6-size.c)
 
-* **[100-intel:](./100-intel)** 
+* **Q7**  [100-intel:](./100-intel)
 
-* **[101-quote.c:](./101-quote.c)** 
+* **Q8**  [101-quote.c:](./101-quote.c)
