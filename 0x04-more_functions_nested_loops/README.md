@@ -1,4 +1,4 @@
-# C - More functions, more nested loops
+# More functions, more nested loops
 
 ## Header File :file_folder:
 
