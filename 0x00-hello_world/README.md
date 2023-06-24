@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World
+# C - Hello, World
 
 ## Tasks :page_with_curl:
 
