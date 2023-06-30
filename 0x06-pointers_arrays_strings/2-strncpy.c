@@ -12,17 +12,16 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int counter1, counter2;
+	int counter1;
 
-	for (counter1 = 0; dest[counter1] != '\0'; counter1++)
+	for (counter1 = 0; counter1 < n && *(src + counter1); counter1++)
 	{
-		continue;
+		*(dest + counter1) = *(src + counter1)
 	}
 
-	for (counter2 = 0; src[counter2] != '\0' && counter2 < n; counter2++)
+	for (;counter1 < n; counter1++)
 	{
-		dest[counter1 + counter2] = src[counter2];
+		*(dest + counter1) = '\0';
 	}
-	dest[counter1 + counter2] = '\0';
 	return (dest);
 }
