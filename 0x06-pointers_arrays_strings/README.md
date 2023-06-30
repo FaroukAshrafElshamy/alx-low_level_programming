@@ -2,5 +2,5 @@
 
 ## Task :page_with_curl:
 * **Q0** [Strcat](./0-strcat.c)
-* **Q1** [StrcatV2](./1-strcat.c)
+* **Q1** [Strncat](./1-strncat.c)
 
