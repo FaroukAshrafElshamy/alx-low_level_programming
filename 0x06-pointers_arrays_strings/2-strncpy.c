@@ -1,27 +1,30 @@
 #include "main.h"
 
 /**
- *_strncpy - Concatinate 2 strings V2
+ * _strncpy - copies a string
+ * @dest: destination string
+ * @src: source string
+ * @n: number of bytes to copy
  *
- *@dest: the first string
- *@src: the second string that will be splited
- *@n: length of string
- *
- *Return: string
+ * Return: pointer to the resulting string
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-	int counter1;
+	int i;
 
-	for (counter1 = 0; counter1 < n && *(src + counter1); counter1++)
+	i = 0;
+
+	while (src[i] != '\0' && i < n)
 	{
-		*(dest + counter1) = *(src + counter1);
+		dest[i] = src[i];
+		i++;
 	}
 
-	for (; counter1 < n; counter1++);
+	while (i < n)
 	{
-		*(dest + counter1) = '\0';
+		dest[i] = '\0';
+		i++;
 	}
+
 	return (dest);
 }
