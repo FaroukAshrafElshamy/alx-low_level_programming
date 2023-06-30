@@ -16,10 +16,10 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (counter1 = 0; counter1 < n && *(src + counter1); counter1++)
 	{
-		*(dest + counter1) = *(src + counter1)
+		*(dest + counter1) = *(src + counter1);
 	}
 
-	for (; counter1 < n; counter1++)
+	for (; counter1 < n; counter1++);
 	{
 		*(dest + counter1) = '\0';
 	}
