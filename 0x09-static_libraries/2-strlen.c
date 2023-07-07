@@ -1,19 +1,19 @@
 #include "main.h"
+#include <stddef.h>
 /**
- * _strlen-function to count the number of chars
- * @s:string
- * Return: return the string length
+ * _strlen - Entry point
+ * @s: input
+ * Return: Always 0 (Success)
  */
 
 int _strlen(char *s)
 {
-	int count, i;
+	int i = 0;
 
-	i = 0, count = 0;
-	while (s[i] != '\0')
+	for (; s[i] >= '\0'; i++)
 	{
-		++count;
-		++i;
+		if (s[i] == '\0')
+			return (i);
 	}
-	return (count);
+	return (0);
 }

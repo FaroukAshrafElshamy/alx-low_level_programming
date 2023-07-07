@@ -1,19 +1,23 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
- * _puts-function to print a string
- * @str:string
- * Return: no return value
+ * _puts - Entry point
+ * @str: input
+ * Return: Always 0 (Success)
  */
 
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-	while (str[i] != '\0')
+	for (; str[i] >= '\0'; i++)
 	{
+		if (str[i] == '\0')
+		{
+			_putchar('\n');
+			return;
+		}
 		_putchar(str[i]);
-		++i;
 	}
-	_putchar('\n');
 }

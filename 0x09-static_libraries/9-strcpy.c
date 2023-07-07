@@ -1,35 +1,20 @@
 #include "main.h"
-/**
- *_strlen-function to count the length of the string
- *@s:parameter
- *Return:return an integer
- */
-int _strlen(char *s)
-{
-	int count, i;
 
-	i = 0, count = 0;
-	while (s[i] != '\0')
-	{
-		++count;
-		++i;
-	}
-	return (count);
-}
 /**
- * _strcpy-function to revres
- * @dest:copy string
- * @src:string
- * Return: return the copy
+ * _strcpy - Entry point
+ * @dest: input
+ * @src: input
+ * Return: Always 0 (Success)
  */
+
 char *_strcpy(char *dest, char *src)
 {
-	int len, i;
+	int i = 0;
 
-	len = _strlen(src);
-	for (i = 0; i <= len; ++i)
+	for (; src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
+	dest[i] = '\0';
 	return (dest);
 }

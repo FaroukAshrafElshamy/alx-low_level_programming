@@ -1,15 +1,12 @@
 #include "main.h"
-
 /**
- * _isdigit-function check if letter is upper case or not
- * @c:paramter
- * Return: return 1 if upper case and 0 if not
+ * _isdigit - cheak if char is digit or not.
+ * @c : the char.
+ * Return: 1 if is digit otherwise 0.
  */
-
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
+	if (c >= '0' && c <= '9')
 		return (1);
-	else
-		return (0);
+	return (0);
 }

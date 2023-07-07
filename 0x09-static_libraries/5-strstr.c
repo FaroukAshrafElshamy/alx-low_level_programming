@@ -1,28 +1,24 @@
-#include "main.h"
+#include "main.h"	
+#include <stddef.h>
+
 /**
- * _strstr-function to allocate the sub string
- * @haystack:array of chars
- * @needle:array of chars
- * Return:return a pointer to the beginning of the located substring
+ * _strstr - Entry point
+ * @haystack: input
+ * @needle: input
+ * Return: Always 0 (Success)
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i;
+	int i = 0, j = 0;
 
-	for (i = 0; haystack[i] != '\0'; ++i)
+	for (; haystack[i] != '\0'; i++)
 	{
-		int j;
-
-		for (j = 0; needle[j] != '\0'; ++j)
+		for (; needle[j] != '\0'; j++)
 		{
-			if (needle[j] != haystack[i + j])
-			{
-				break;
-			}
+			if (haystack[i] == needle[j])
+				return (haystack + i);
 		}
-		if (needle[j] == '\0')
-			return (haystack + i);
 	}
-	return (NULL);
+	return ('\0');
 }

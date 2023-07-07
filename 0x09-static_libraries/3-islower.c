@@ -1,16 +1,16 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
- *_islower-function determine if lower case or upper case
- * @c: is a parameter might be upper case or lower case
- * Return: value of _islower is 1 if lower case and 0 if upper case
+ * _islower - Entry point
+ * @c: input
+ * Return: Always 0 (Success)
  */
 
 int _islower(int c)
 {
-	if (c <= 122 && c >= 97)
-	{
+	if (c >= 97 && c <= 122)
 		return (1);
-	}
 	else
 		return (0);
 }

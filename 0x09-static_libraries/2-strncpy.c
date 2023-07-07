@@ -1,19 +1,25 @@
 #include "main.h"
-#include <string.h>
+#include <stddef.h>
+
 /**
- * _strncpy-function to copy n char of the second string to the first string
- * @dest:first string
- * @src:second string
- * @n:number of char from src
- * Return:return a string
+ * _strncpy - Entry point
+ * @dest: input
+ * @src: input
+ * @n: input
+ * Return: Always 0 (Success)
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < n && src[i] != '\0'; ++i)
+	for (; i < n && src[i] != '\0'; i++)
+	{
 		dest[i] = src[i];
-	for ( ; i < n; ++i)
+	}
+	for (; i < n; i++)
+	{
 		dest[i] = '\0';
+	}
 	return (dest);
 }
