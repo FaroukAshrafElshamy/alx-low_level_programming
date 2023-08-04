@@ -15,21 +15,21 @@ unsigned int binary_to_unit(const char *b)
 	if (!b)
 	{
 		return (0);
-	{
+	}
 	else
 	{
-		for (x = 0; b[i] != '\0'; x++)
+		for (x = 0; b[x] != '\0'; x++)
 		{
 			z <<= 1;
-			if (b[i] == '1')
+			if (b[x] == '1')
 			{
 				z += 1;
 			}
 		}
 
-		for (x = 0; b[i] != '\0'; x++)
+		for (x = 0; b[x] != '\0'; x++)
 		{
-			if (b[i] != '0' && b[i] != '1')
+			if (b[x] != '0' && b[x] != '1')
 			{
 				return (0);
 			}
